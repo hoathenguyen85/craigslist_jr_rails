@@ -1,0 +1,5 @@
+<%= form_tag('/authentication') do -%>
+  <div><%= text_field_tag 'email', nil, placeholder: 'email' %></div>
+  <div><%= password_field_tag 'password', nil, placeholder: 'password' %></div>
+  <div><%= submit_tag 'Save' %></div>
+<% end -%>
